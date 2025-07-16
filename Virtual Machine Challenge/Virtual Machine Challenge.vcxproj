@@ -171,7 +171,11 @@
     <Image Include="Virtual Machine Challenge.ico" />
   </ItemGroup>
   <ItemGroup>
+    <Text Include="..\LICENSE.txt" />
     <Text Include="arch-spec.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\README.md" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
